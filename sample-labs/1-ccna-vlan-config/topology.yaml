@@ -60,7 +60,6 @@ nodes:
       boot-end-marker
       !
       !
-      no logging console
       !
       no aaa new-model
       !
@@ -234,7 +233,6 @@ nodes:
       boot-end-marker
       !
       !
-      no logging console
       !
       no aaa new-model
       !
@@ -380,7 +378,6 @@ nodes:
       boot-end-marker
       !
       !
-      no logging console
       !
       no aaa new-model
       !
