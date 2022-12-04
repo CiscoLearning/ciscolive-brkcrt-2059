@@ -19,7 +19,8 @@ nodes:
       \ utilization monitor load 80\nplatform punt-keepalive disable-kernel-core\n\
       platform console serial\n!\nhostname R1\n!\nboot-start-marker\nboot-end-marker\n\
       !\n!\n!\nno aaa new-model\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n\
-      login on-success log\n!\n!\n!\n!\n!\n!\n!\nsubscriber templating\n!\nmultilink\
+      login on-success log\n!\nusername cml privilege 15 secret clanz\
+      \n!\n!\n!\n!\n!\n!\nsubscriber templating\n!\nmultilink\
       \ bundle-name authenticated\n!\n!\n!\ncrypto pki trustpoint SLA-TrustPoint\n\
       \ enrollment pkcs12\n revocation-check crl\n!\n!\ncrypto pki certificate chain\
       \ SLA-TrustPoint\n certificate ca 01\n  30820321 30820209 A0030201 02020101\
