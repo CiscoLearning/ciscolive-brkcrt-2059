@@ -1,6 +1,81 @@
+annotations:
+  - border_color: "#808080FF"
+    border_radius: 2
+    border_style: ""
+    color: "#A2D8D3FF"
+    thickness: 1
+    type: rectangle
+    x1: 440.0
+    y1: 40.0
+    x2: 440.0
+    y2: 120.0
+    z_index: 0
+  - border_color: "#808080FF"
+    border_radius: 2
+    border_style: ""
+    color: "#F0E3C4FF"
+    thickness: 1
+    type: rectangle
+    x1: 436.0
+    y1: 387.0
+    x2: 440.0
+    y2: 120.0
+    z_index: 1
+  - border_color: "#00000000"
+    border_style: ""
+    color: "#808080FF"
+    rotation: 0
+    text_bold: false
+    text_content: ""
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 440.0
+    y1: 400.0
+    z_index: 2
+  - border_color: "#00000000"
+    border_style: ""
+    color: "#000000FF"
+    rotation: 0
+    text_bold: true
+    text_content: VLAN 10
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 800.0
+    y1: 56.0
+    z_index: 3
+  - border_color: "#00000000"
+    border_style: ""
+    color: "#000000FF"
+    rotation: 0
+    text_bold: true
+    text_content: VLAN 20
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 798.0
+    y1: 485.0
+    z_index: 4
 lab:
-  description: ''
-  notes: ''
+  description: ""
+  notes: |-
+    # CCNA: Implement Multiple VLANs and Basic Routing Between the VLANs
+    In this lab you need to do the following:
+    - Implement VLAN assignments on two switches
+    - Configure a dot1q trunk between those switches
+    - Configure a dot1q trunk between one switch and a router that will handle the routing for the VLANs
+    - Configure VLAN trunking on that router to act as a gateway between VLANs
+    - Verify that connectivity exists between hosts in the lab on each VLAN, and that the connectivity goes through the router
   title: Sample Lab 1 (VLAN Configuration) [Solution]
   version: 0.1.0
 links:
