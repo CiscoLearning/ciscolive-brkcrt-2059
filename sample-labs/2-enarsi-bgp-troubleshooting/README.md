@@ -12,9 +12,6 @@ R6 should prefer the path through R7 to reach the 10.1.1.0/24 network.
 
 Why isn’t BGP working throughout?  There are five neighbour relationship issues, one routing issues, and one path selection issue.
 
-
 Find and fix the problems and make sure all loopbacks are pingable!
 
-
 Import the `topology.yaml` file to have a base with which to work.  If you get stuck, import the `topology-solution.yaml` file to see the fully working topology.
-
