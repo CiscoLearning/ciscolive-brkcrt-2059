@@ -5,4 +5,3 @@ In this directory you'll find an example UDP traffic flow in YAML format.  This 
 ## Importing
 
 Launch the TRex stateless UI app, go to Traffic Profiles > Traffic Profiles, and then select **Load Profile** to import it.
-
