@@ -13,4 +13,3 @@ To complete this lab you must do the following:
 * Verify that connectivity exists between hosts in the lab on each VLAN, and that the connectivity goes through the router
 
 Import the `topology.yaml` file to have a base with which to work.  If you get stuck, import the `topology-solution.yaml` file to see the fully working topology.
-
