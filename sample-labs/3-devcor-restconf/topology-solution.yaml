@@ -1,6 +1,8 @@
 lab:
-  description: ''
-  notes: ''
+  description: ""
+  notes: |-
+    # DEVCOR: Utilize RESTCONF for Network Configuration
+    In this lab you need to retrieve the configuration with RESTCONF using Postman, and then add an IP address to Loopback0.
   title: Sample Lab 3 (RESTCONF) [Solution]
   version: 0.1.0
 links:
@@ -12,7 +14,8 @@ links:
     label: cat8000v-0-GigabitEthernet1<->ext-conn-0-port
 nodes:
   - boot_disk_size: 0
-    configuration: "Building configuration...\n\nCurrent configuration : 3680 bytes\n\
+    configuration:
+      "Building configuration...\n\nCurrent configuration : 3680 bytes\n\
       !\n! Last configuration change at 14:09:54 UTC Sat Nov 5 2022\n!\nversion 17.4\n\
       service timestamps debug datetime msec\nservice timestamps log datetime msec\n\
       ! Call-home is enabled by Smart-Licensing.\nservice call-home\nplatform qfp\
