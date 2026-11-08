@@ -9,3 +9,5 @@ Useful Links:
 [CML Community](https://github.com/CiscoDevNet/cml-community)
 
 [CCNA Prep Live Streams](https://learningnetwork.cisco.com/s/question/0D56e0000E3M9jiCQC/the-ccna-prep-program-is-back-with-allnew-live-stream-sessions)
+
+[CML Sizing Calculator](https://ciscolearning.github.io/cml-sizer)
